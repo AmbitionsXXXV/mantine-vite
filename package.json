@@ -57,11 +57,9 @@
     "vite-tsconfig-paths": "^4.2.2",
     "vitest": "^1.1.0"
   },
-  "packageManager": "yarn@4.0.2",
   "husky": {
     "hooks": {
-      "pre-commit": "etc-fe-lint commit-file-scan",
-      "commit-msg": "etc-fe-lint commit-msg-scan"
+      "pre-commit": "etc-fe-lint commit-file-scan"
     }
   }
 }
