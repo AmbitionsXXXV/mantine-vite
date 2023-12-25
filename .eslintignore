@@ -1,6 +1,9 @@
-*.js
-*.cjs
-*.mjs
-*.d.ts
-*.d.mts
-vite.config.ts
+build/
+coverage/
+dist/
+es/
+lib/
+node_modules/
+**/*.min.js
+**/*-min.js
+**/*.bundle.js
