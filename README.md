@@ -4,6 +4,7 @@
 
 This template comes with the following features:
 
+- [tailwindcss](https://tailwindcss.com/)
 - [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Storybook](https://storybook.js.org/)
