@@ -2,6 +2,7 @@
   "name": "mantine-vite-template",
   "private": true,
   "version": "0.0.0",
+  "author": "etcetera",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -64,5 +65,12 @@
     "hooks": {
       "pre-commit": "etc-fe-lint commit-file-scan"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "etc-fe-lint commit-file-scan",
+      "prettier --write",
+      "eslint --fix"
+    ]
   }
 }
