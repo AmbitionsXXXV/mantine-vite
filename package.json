@@ -63,11 +63,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "etc-fe-lint commit-file-scan"
+      "pre-commit": "lint-staged",
+      "commit-msg": "etc-fe-lint commit-msg-scan"
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,css}": [
+    "*.{js,jsx,ts,tsx}": [
       "etc-fe-lint commit-file-scan",
       "prettier --write",
       "eslint --fix"
